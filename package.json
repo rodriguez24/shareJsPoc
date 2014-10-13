@@ -1,13 +1,17 @@
 {
-  "name": "angular-collab-board",
-  "description": "AngularJS Collobaration Board",
+  "name": "shareJsPoc",
+  "description": "ShareJS & Ace POC",
   "version": "0.0.1-1",
   "private": true,
   "dependencies": {
-    "express": "3.x",
-    "socket.io": "0.9.x"
+    "browserchannel": "~1",
+    "connect": "<3.x",
+    "request": ">= 2.1.1",
+    "share": "0.6.3"
   },
-  "subdomain": "simpulton.angularjs-collab-board",
+  "devDependencies": {
+  },
+  "subdomain": "rodriguez.shareJsPoc",
   "scripts": {
     "start": "app.js"
   },
